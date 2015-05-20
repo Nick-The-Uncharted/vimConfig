@@ -43,9 +43,6 @@
 [submodule "bundle/YouCompleteMe"]
 	path = bundle/YouCompleteMe
 	url = https://github.com/Valloric/YouCompleteMe.git
-[submodule "bundle/jedi-vim"]
-	path = bundle/jedi-vim
-	url = https://github.com/davidhalter/jedi
 [submodule "bundle/STL-Syntax"]
 	path = bundle/STL-Syntax
 	url = https://github.com/Mizuchi/STL-Syntax.git
@@ -64,3 +61,6 @@
 [submodule "bundle/ctrlsf"]
 	path = bundle/ctrlsf
 	url = https://github.com/dyng/ctrlsf.vim.git
+[submodule "bundle/jedi-vim"]
+	path = bundle/jedi-vim
+	url = https://github.com/davidhalter/jedi
