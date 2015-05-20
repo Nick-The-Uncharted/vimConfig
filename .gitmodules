@@ -58,3 +58,9 @@
 [submodule "bundle/codeschool-vim-theme"]
 	path = bundle/codeschool-vim-theme
 	url = https://github.com/29decibel/codeschool-vim-theme.git
+[submodule "bundle/a"]
+	path = bundle/a
+	url = https://github.com/vim-scripts/a.vim.git
+[submodule "bundle/ctrlsf"]
+	path = bundle/ctrlsf
+	url = https://github.com/dyng/ctrlsf.vim.git
