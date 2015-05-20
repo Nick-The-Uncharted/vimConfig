@@ -52,6 +52,9 @@
 [submodule "bundle/tagbar"]
 	path = bundle/tagbar
 	url = https://github.com/majutsushi/tagbar.git
-[submodule "bundle/powerline"]
-	path = bundle/powerline
+[submodule "bundle/powerline-vim"]
+	path = bundle/powerline-vim
 	url = https://github.com/Lokaltog/vim-powerline.git
+[submodule "bundle/codeschool-vim-theme"]
+	path = bundle/codeschool-vim-theme
+	url = https://github.com/29decibel/codeschool-vim-theme.git
