@@ -68,18 +68,18 @@ def GetCompilationInfoForFile( filename ):
           return compilation_info 
     return None 
   return database.GetCompilationInfoForFile( filename ) 
-def FlagsForFile( filename, \*\*kwargs ): 
+def FlagsForFile( filename, kwargs ): 
   if database: 
     compilation_info = GetCompilationInfoForFile( filename ) 
     if not compilation_info: 
       return None 
-   final_flags = MakeRelativePathsInFlagsAbsolute( 
+    final_flags = MakeRelativePathsInFlagsAbsolute( 
       compilation_info.compiler_flags_, 
       compilation_info.compiler_working_dir_ ) 
   else: 
     relative_to = DirectoryOfThisScript() 
     final_flags = MakeRelativePathsInFlagsAbsolute( flags, relative_to ) 
- return { 
+  return { 
     'flags': final_flags, 
     'do_cache': True 
   }
