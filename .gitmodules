@@ -58,12 +58,12 @@
 [submodule "bundle/ctrlsf"]
 	path = bundle/ctrlsf
 	url = https://github.com/dyng/ctrlsf.vim.git
-[submodule "bundle/jedi-vim"]
-	path = bundle/jedi-vim
-	url = https://github.com/davidhalter/jedi
 [submodule "bundle/ultisnips"]
 	path = bundle/ultisnips
 	url = https://github.com/SirVer/ultisnips.git
 [submodule "bundle/vim-snippts"]
 	path = bundle/vim-snippts
 	url = https://github.com/honza/vim-snippets.git
+[submodule "bundle/hybrid-color"]
+	path = bundle/hybrid-color
+	url = https://github.com/w0ng/vim-hybrid.git
